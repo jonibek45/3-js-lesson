@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content__title {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.content__inner {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 85px;
+}
+.box1 {
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px;
+
+}
+i {
+    padding-left: 25px;
+}
+.box1__content {
+    padding: 25px 0 0 65px;
+}
